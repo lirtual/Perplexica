@@ -56,4 +56,13 @@ export const searchHandlers: Record<string, MetaSearchAgent> = {
     searchWeb: true,
     summarizer: false,
   }),
+  chinaStockSearch: new MetaSearchAgent({
+    activeEngines: ['baidu', 'google news', 'bing news'],
+    queryGeneratorPrompt: prompts.chinaStockSearchRetrieverPrompt,
+    responsePrompt: prompts.chinaStockSearchResponsePrompt,
+    rerank: true,
+    rerankThreshold: 0.3,
+    searchWeb: true,
+    summarizer: true,
+  }),
 };

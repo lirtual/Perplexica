@@ -16,6 +16,10 @@ import {
   youtubeSearchResponsePrompt,
   youtubeSearchRetrieverPrompt,
 } from './youtubeSearch';
+import {
+  chinaStockSearchResponsePrompt,
+  chinaStockSearchRetrieverPrompt,
+} from './chinaStockSearch';
 
 export default {
   webSearchResponsePrompt,
@@ -29,4 +33,6 @@ export default {
   writingAssistantPrompt,
   youtubeSearchResponsePrompt,
   youtubeSearchRetrieverPrompt,
+  chinaStockSearchResponsePrompt,
+  chinaStockSearchRetrieverPrompt,
 };

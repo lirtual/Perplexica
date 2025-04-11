@@ -5,6 +5,7 @@ import {
   Pencil,
   ScanEye,
   SwatchBook,
+  BarChart3,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import {
@@ -52,6 +53,12 @@ const focusModes = [
     title: 'Reddit',
     description: 'Search for discussions and opinions',
     icon: <SiReddit className="h-5 w-auto mr-0.5" />,
+  },
+  {
+    key: 'chinaStockSearch',
+    title: '中国股市',
+    description: '搜索中国股市和A股相关信息',
+    icon: <BarChart3 size={20} />,
   },
 ];
 
